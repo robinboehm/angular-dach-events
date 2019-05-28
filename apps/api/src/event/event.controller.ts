@@ -2,7 +2,7 @@ import { Controller, Get, Param } from '@nestjs/common';
 import { EventService } from './event.service';
 import { Event } from '@angular-dach-events/api-interface';
 
-@Controller('event')
+@Controller('events')
 export class EventController {
 
     constructor(private readonly eventService: EventService) {}
