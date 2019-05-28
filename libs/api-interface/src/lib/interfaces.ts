@@ -2,7 +2,7 @@ export interface Message {
   message: string;
 }
 export interface Event {
-  id: number;
+  id: string;
   name: string;
   description: string;
   adress: string;

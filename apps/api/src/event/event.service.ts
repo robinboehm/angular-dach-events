@@ -7,7 +7,7 @@ export class EventService {
         return [];
     }
 
-    findOneById(id: number): Event {
+    findOneById(id: string): Event {
     return {
         id: id,
         name: 'NG-DE',
