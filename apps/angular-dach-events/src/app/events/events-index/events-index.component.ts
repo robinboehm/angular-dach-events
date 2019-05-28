@@ -4,12 +4,12 @@ import { Observable } from 'rxjs';
 
 import { Event } from '@angular-dach-events/api-interface';
 
-import { EventsService } from './events.service';
+import { EventsService } from '../events.service';
 
 @Component({
-  selector: 'angular-dach-events-events',
-  templateUrl: './events.component.html',
-  styleUrls: ['./events.component.css']
+  selector: 'angular-dach-events-index',
+  templateUrl: './events-index.component.html',
+  styleUrls: ['./events-index.component.css']
 })
 export class EventsComponent implements OnInit {
 
