@@ -13,7 +13,7 @@ export class EventController {
     }
 
     @Get(':id')
-    findOne(@Param() params: Map<string, string>): Event {
-        return this.eventService.findOneById(params['id']);
+    findOne(@Param('id') id: string): Event {
+        return this.eventService.findOneById(id);
     }
 }
