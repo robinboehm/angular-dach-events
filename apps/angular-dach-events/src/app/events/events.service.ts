@@ -13,8 +13,12 @@ export class EventsService {
 
   constructor(private readonly http: HttpClient) {}
 
-  getAll() : Observable<Event> {
-    return this.http.get<Event>('http://localhost:3333/api/events');
+  getAll() : Observable<Event[]> {
+    return this.http.get<Event[]>('http://localhost:3333/api/events');
+  }
+
+  getOneById(id: string) : Observable<Event> {
+    return this.http.get<Event>(`http://localhost:3333/api/events/${id}`);
   }
 
 }
