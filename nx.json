@@ -1,0 +1,24 @@
+{
+  "npmScope": "angular-dach-events",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "angular-dach-events-e2e": {
+      "tags": []
+    },
+    "angular-dach-events": {
+      "tags": []
+    },
+    "api": {
+      "tags": []
+    },
+    "api-interface": {
+      "tags": []
+    }
+  }
+}
